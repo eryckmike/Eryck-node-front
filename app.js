@@ -6,7 +6,7 @@ const updateProductName = document.querySelector('#update-name');
 const updateProductDescription = document.querySelector('#update-description');
 const updateProductPrice = document.querySelector('#update-price');
 
-const API_URL = 'http://localhost:3000/products';
+const API_URL = 'http://54.162.119.123:3000/products';
 
 // Function to fetch all products from the server
 async function fetchProducts() {
